@@ -1,0 +1,163 @@
+    1  git config
+    2  git config --global
+    3  git status
+    4  pwd
+    5  ls -al
+    6  cd \ICH\GIT
+    7  cd /ICH/GIT
+    8  pwd
+    9  ls -al
+   10  cd ICH/
+   11  cd GIT/
+   12  git config --global -l
+   13  git config --global user.name "Maksym_Dodenko"
+   14  git config --global -l
+   15  git config --global user.email "majluc19@gmail.com"
+   16  git config --global -l
+   17  git init
+   18  ls -al
+   19  mkdir git-branth
+   20  tree
+   21  tree /
+   22  ls -tee
+   23  cd git-branth/
+   24  git init
+   25  cd ..
+   26  mkdir git-intro
+   27  cd git-intro/
+   28  git init
+   29  git status
+   30  git remote add origin git@github.com:MaJluc/git-branch.git
+   31  git remote -v
+   32  git branch -M main
+   33  git status 
+   34  pwd
+   35  ls -all
+   36  cd .ICH/
+   37  cd/ICH
+   38  cd /ICH
+   39  cd ICH/
+   40  tree
+   41  cd GIT/
+   42  git global
+   43  git global -al
+   44  git status
+   45  git config 
+   46  git config --global
+   47  git config --global -l
+   48  git remote -v
+   49  git branch -M main
+   50  git status
+   51  git branch
+   52  git checkout -b gitignore
+   53  cwd
+   54  pwd
+   55  git branch -v
+   56  nano .gitignore
+   57  cat .gitignore
+   58  git status
+   59  cd ..
+   60  git branch -D gitignore
+   61  cd /GIT
+   62  cd GIT/
+   63  ls -al
+   64  git log --all
+   65  git branch -a
+   66  git branch -D gitignore
+   67  cd ..
+   68  git branch -D gitignore
+   69  cd /GIT
+   70  cd GIT/
+   71  git branch -D gitignore
+   72  git brunch Test
+   73  git branch Test
+   74  git branch -v
+   75  git checkout main
+   76  git branch
+   77  git switch main
+   78  git checkout main
+   79  git branch -M main
+   80  git branch -D gitignore
+   81  git branch
+   82  git branch gitignore
+   83  git branch
+   84  cat .git/HEAD
+   85  pwd
+   86  ls -al
+   87  cd ICH/
+   88  cd GIT/
+   89  cd Fork-Test/
+   90  git branch
+   91  git clone git@github.com:MaJluc/Fork-Test.git
+   92  git checkout Develop
+   93  cd Fork-Test/
+   94  git checkout Develop
+   95  nano MDodenko
+   96  git branch -a
+   97  git checkout -b MDodenko
+   98  nano Hallo
+   99  git status
+  100  git status
+  101  git add.
+  102  git add .
+  103  git status
+  104  git commit -m "Hallo zusamMen"
+  105  git status
+  106  git add .
+  107  git status
+  108  git push
+  109  git push origin MDodenko
+  110  cd ..
+  111  cd ..
+  112  git clone git@github.com:MaJluc/learning_git.git
+  113  pwd
+  114  cd learning_git
+  115  mkdir 101025-ptm
+  116  ls -al
+  117  cd #101025-ptm
+  118  ls -al
+  119  pwd
+  120  cd ICH/GIT
+  121  cd learning_git
+  122  cd 101025-ptm
+  123  nano MDodenko
+  124  git branch -a
+  125  git add .
+  126  git status
+  127  git commit -m "Bitte überprüfen"
+  128  git push
+  129  git status
+  130  git add .
+  131  ls -al
+  132  pwd
+  133  ssh ec2-user@linux.itcareerhub.de
+  134  ping linux.itcareerhub.de
+  135  pwd
+  136  ls -al
+  137  cd ICH/
+  138  ls -al
+  139  cd Linyx/
+  140  ls -al
+  141  pwd
+  142  scp ec2-user@linux.itcareerhub.de:/opt/101025-ptm/MDodenko/permission_checker.sh /c/Users/Laptop/ICH/permission_checker.sh
+  143  scp ec2-user@linux.itcareerhub.de:/opt/101025-ptm/MDodenko/permission_checker.sh /c/Users/Laptop/ICH/permission_checker.sh
+  144  ssh ec2-user@linux.itcareerhub.de
+  145  pwd
+  146  cd ICH/GIT
+  147  git clone git@github.com:MaJluc/test-merge.git
+  148  cd test-merge
+  149  git checkout -b feature
+  150  nano README.md
+  151  nano .gitignore
+  152  git add README.md
+  153  git commit -m "Update README"
+  154  git add .gitignore
+  155  git commit -m "delete nyc test coverage from gitignore"
+  156  git log --oneline
+  157  git push -u origin feature
+  158  git commit --amend -m "delete nyc test coverage"
+  159  git push --force
+  160  git checkout main
+  161  git merge feature
+  162  git push
+  163  history > history.txt
